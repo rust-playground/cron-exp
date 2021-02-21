@@ -13,7 +13,7 @@
 //!
 //! ```rust
 //! use chrono::{DateTime, TimeZone, Utc};
-//! use cron_rs::schedule::Schedule;
+//! use cron_exp::Schedule;
 //! use std::str::FromStr;
 //! //               sec  min   hour   day of month   month   day of week   year
 //! let expression = "0   30   9,12,15     1,15       May-Aug  Mon,Wed,Fri  2018/2";
@@ -58,5 +58,11 @@
 //! prev -> 2020-07-15T15:30:00Z
 //! */
 //! ```
-pub mod errors;
-pub mod schedule;
+mod errors;
+mod schedule;
+
+#[doc(inline)]
+pub use errors::ParseScheduleError;
+
+#[doc(inline)]
+pub use schedule::Schedule;

@@ -1,5 +1,5 @@
 use chrono::{DateTime, TimeZone, Utc};
-use cron_rs::schedule::Schedule;
+use cron_exp::Schedule;
 use std::str::FromStr;
 
 fn main() {

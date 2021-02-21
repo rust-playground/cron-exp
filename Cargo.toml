@@ -1,5 +1,5 @@
 [package]
-name = "cron-rs"
+name = "cron-exp"
 version = "0.1.0"
 authors = ["Dean Karn <dean.karn@gmail.com>"]
 description = "A CRON expression parser and explorer designed for space efficiency for caching and storage purposes such as in a CRON Scheduler."
@@ -12,7 +12,7 @@ keywords = [
 ]
 license = "MIT OR Apache-2.0"
 readme = "README.md"
-repository = "https://github.com/rust-playground/cron-rs"
+repository = "https://github.com/rust-playground/cron-exp"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 

@@ -180,7 +180,7 @@ impl Schedule {
     /// CRON expression is to run or should have ran.
     /// ```rust
     /// use chrono::{DateTime, TimeZone, Utc};
-    /// use cron_rs::schedule::Schedule;
+    /// use cron_exp::Schedule;
     /// use std::str::FromStr;
     ///
     /// //                sec  min   hour   day of month   month   day of week   year
