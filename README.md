@@ -1,4 +1,9 @@
-# cron-rs
+# cron-exp  &emsp; [![Build Status]][ghactions] [![Latest Version]][crates.io]
+
+[Build Status]: https://github.com/rust-playground/cron-exp/actions/workflows/rust.yml/badge.svg
+[ghactions]: https://github.com/rust-playground/cron-exp/actions/workflows/rust.yml/badge.svg
+[Latest Version]: https://img.shields.io/crates/v/cron_exp.svg
+[crates.io]: https://crates.io/crates/cron_exp
 
 A CRON expression parser and explorer.
 It is designed for space efficiency for caching and storage purposes such as in a CRON Scheduler.
